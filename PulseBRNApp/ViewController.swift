@@ -13,9 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ankitLbl: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    
     @IBOutlet weak var muraliLbl: UILabel!
-    
+    @IBOutlet var amardeepLbl: UILabel!
     @IBOutlet weak var developer1: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +26,7 @@ class ViewController: UIViewController {
         
         muraliLbl.text = "Murali Reddy"
         ankitLbl.text = "Ankit Mishra"
+        amardeepLbl.text = "Amardeep Thakuria"
         
         // Do any additional setup after loading the view.
     }
