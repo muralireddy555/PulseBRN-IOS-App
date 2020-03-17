@@ -56,7 +56,8 @@ class ViewController: UIViewController {
         amardeepLbl.layer.borderWidth = 3
         amardeepLbl.clipsToBounds = true
         
-        // Do any additional setup after loading the view.
+        print("Amardeep Thakuria")
+        
     }
     
     
