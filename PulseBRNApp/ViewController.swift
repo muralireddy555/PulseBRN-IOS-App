@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var ankitLbl: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     
     @IBOutlet weak var muraliLbl: UILabel!
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         print("Puhsed by Veeraswamy !")
         
         muraliLbl.text = "Murali Reddy"
+        ankitLbl.text = "Ankit Mishra"
         
         // Do any additional setup after loading the view.
     }
