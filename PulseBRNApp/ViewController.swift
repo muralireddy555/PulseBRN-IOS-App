@@ -51,6 +51,10 @@ class ViewController: UIViewController {
         
         
         amardeepLbl.text = "Amardeep Thakuria"
+        amardeepLbl.backgroundColor = UIColor.red
+        amardeepLbl.layer.cornerRadius = 20
+        amardeepLbl.layer.borderWidth = 3
+        amardeepLbl.clipsToBounds = true
         
         // Do any additional setup after loading the view.
     }
