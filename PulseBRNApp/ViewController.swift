@@ -14,10 +14,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     
 
+    @IBOutlet weak var developer1: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        nameLabel.text = "Done "
+        nameLabel.text = "Team Members! "
+        developer1.text = "*Veeraswamy Lingala"
         
         print("Puhsed by Veeraswamy !")
         
