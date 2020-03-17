@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         
         muraliLbl.text = "Murali Reddy"
         ankitLbl.text = "Ankit Mishra"
+        
+        
         amardeepLbl.text = "Amardeep Thakuria"
         
         // Do any additional setup after loading the view.
